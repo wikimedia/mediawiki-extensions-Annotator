@@ -6,5 +6,5 @@ This uses the OKFN technology available under the MIT License https://github.com
 
 Installation
 ===========================
-Install it by adding require_once("$IP/extensions/Prototyping-inline-comments/Annotator.php"); to your Localsettings.php
+Install it by adding require_once("$IP/extensions/Annotator/Annotator.php"); to your Localsettings.php
 
