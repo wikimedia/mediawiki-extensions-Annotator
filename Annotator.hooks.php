@@ -3,6 +3,19 @@
 
 */
 class AnnotatorHooks {
+	/** LoadExtensionSchemaUpdates hook
+	 *
+	 * @param $updater DatabaseUpdater
+	 *
+	 * @return bool
+	 */
+	public static function loadExtensionSchemaUpdates( $updater = null ) {
+		$updater->addExtensionTable(
+			'annotator',
+			dirname( __FILE__ ) . '/sql/annotator.sql'
+		);
+		return true;
+	}
 	/*adds the annotator js and css
 
 	*/

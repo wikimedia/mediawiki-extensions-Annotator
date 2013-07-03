@@ -19,6 +19,9 @@ $wgResourceModules['ext.annotator'] = array(
 	'styles' => 'Annotator.css',
 	) + $wgAnnotatorResourcePaths;
 
-//hooks
+//Autoloading
 $wgAutoloadClasses['AnnotatorHooks'] = $dir . 'Annotator.hooks.php';
+
+//Hooks
 $wgHooks['BeforePageDisplay'][] = 'AnnotatorHooks::onBeforePageDisplay';
+$wgHooks['LoadExtensionSchemaUpdates'][] = 'AnnotatorHooks::loadExtensionSchemaUpdates';
