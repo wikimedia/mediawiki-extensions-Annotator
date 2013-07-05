@@ -21,7 +21,10 @@ $wgResourceModules['ext.annotator'] = array(
 
 //Autoloading
 $wgAutoloadClasses['AnnotatorHooks'] = $dir . 'Annotator.hooks.php';
+$wgAutoloadClasses['ApiAnnotatorCreate'] = $dir . 'api/ApiAnnotatorCreate.php';
 
 //Hooks
 $wgHooks['BeforePageDisplay'][] = 'AnnotatorHooks::onBeforePageDisplay';
 $wgHooks['LoadExtensionSchemaUpdates'][] = 'AnnotatorHooks::loadExtensionSchemaUpdates';
+
+$wgAPIModules['annotator-create'] = 'ApiAnnotatorCreate';

@@ -21,9 +21,9 @@ class AnnotatorHooks {
 	*/
 	public static function onBeforePageDisplay( OutputPage &$output, Skin &$skin ) {
 		/*
-		 module is added only when then namespace matches
+		 module is added only when then namespace matches and user is logged in
 		*/
-		 if( $skin->getTitle()->inNamespaces( array( NS_MAIN, NS_TALK, NS_CATEGORY ) ) ) {
+		 if( $skin->getTitle()->inNamespaces( array( NS_MAIN, NS_TALK, NS_CATEGORY ) ) && $output->getUser()->isLoggedIn() ) {
 			$output->addModules( 'ext.annotator' );
 		}
 		return true;		
