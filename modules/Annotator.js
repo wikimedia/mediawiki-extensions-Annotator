@@ -15,7 +15,7 @@
       urls: {
         create: '?action=annotator-create&format=json&revid=' + revid,
         update: '',
-        read: '',
+        read: '?action=annotator-read&format=json&id=:id',
         destroy: '',
       }
     });
