@@ -17,6 +17,10 @@
         update: '',
         read: '?action=annotator-read&format=json&id=:id',
         destroy: '',
+        search: '?action=annotator-search&format=json'
+      },
+      loadFromSearch: {
+        'revid': revid
       }
     });
   } )

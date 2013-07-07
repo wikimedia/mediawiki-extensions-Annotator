@@ -14,6 +14,12 @@ class AnnotatorHooks {
 			'annotator',
 			dirname( __FILE__ ) . '/sql/annotator.sql'
 		);
+
+		$updater->addExtensionIndex(
+			'annotator',
+			'annotator_rev_id',
+			dirname( __FILE__ ) . '/sql/index_rev_id.sql'
+		);
 		return true;
 	}
 	/*adds the annotator js and css
