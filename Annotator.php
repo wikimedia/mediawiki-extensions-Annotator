@@ -11,12 +11,14 @@ $wgAnnotatorResourcePaths = array(
 	'localBasePath' => __DIR__ . '/modules',
 	'remoteExtPath' => "Annotator/modules",
 );
+
+$wgResourceModules['mediawiki.libs.okfn'] = array(
+	'scripts' => 'mediawiki.libs.okfn/Annotator-full.js',
+	'styles' => 'mediawiki.libs.okfn/Annotator.css',
+	) + $wgAnnotatorResourcePaths;
 $wgResourceModules['ext.annotator'] = array(
-	'scripts' => array(
-		'Annotator-full.js',
-		'Annotator.js',
-		),
-	'styles' => 'Annotator.css',
+	'scripts' => 'Annotator.js',
+	'dependencies' => 'mediawiki.libs.okfn',
 	) + $wgAnnotatorResourcePaths;
 
 //Autoloading
