@@ -26,6 +26,7 @@ $wgAutoloadClasses['AnnotatorHooks'] = $dir . 'Annotator.hooks.php';
 $wgAutoloadClasses['ApiAnnotatorCreate'] = $dir . 'api/ApiAnnotatorCreate.php';
 $wgAutoloadClasses['ApiAnnotatorRead'] = $dir . 'api/ApiAnnotatorRead.php';
 $wgAutoloadClasses['ApiAnnotatorSearch'] = $dir . 'api/ApiAnnotatorSearch.php';
+$wgAutoloadClasses['ApiAnnotatorDestroy'] = $dir . 'api/ApiAnnotatorDestroy.php';
 
 //Hooks
 $wgHooks['BeforePageDisplay'][] = 'AnnotatorHooks::onBeforePageDisplay';
@@ -34,3 +35,4 @@ $wgHooks['LoadExtensionSchemaUpdates'][] = 'AnnotatorHooks::loadExtensionSchemaU
 $wgAPIModules['annotator-create'] = 'ApiAnnotatorCreate';
 $wgAPIModules['annotator-read'] = 'ApiAnnotatorRead';
 $wgAPIModules['annotator-search'] = 'ApiAnnotatorSearch';
+$wgAPIModules['annotator-destroy'] = 'ApiAnnotatorDestroy';
