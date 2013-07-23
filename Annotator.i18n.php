@@ -6,6 +6,8 @@
  * @ingroup extensions
  */
 
+$messages = array();
+
 /**
  * English
  * @author Richa Jain
