@@ -19,7 +19,7 @@ class ApiAnnotatorDestroy extends ApiBase {
 		$res = $dbw->select(
 			'annotator',
 			array(
-				'user_id'
+				'annotation_user_id'
 				),
 			array(
 				'annotation_id' => $id
@@ -33,7 +33,7 @@ class ApiAnnotatorDestroy extends ApiBase {
 		}
 
 		//checks if the user_id is of the same user who created the annotation
-		if( $userId !== intval( $row->user_id ) ) {
+		if( $userId !== intval( $row->annotation_user_id ) ) {
 			$this->dieUsage( "You don't have permissions to destroy this annotation", 'user_not_authorized', 401 );
 		}
 

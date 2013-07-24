@@ -30,6 +30,10 @@ class ApiAnnotatorCreate extends ApiBase {
 			$this->dieUsage( "The revision ID is not valid", 'invalid_revision_id', 404 );
 		}
 
+		$annotation = json_decode($annotation);
+		unset($annotation->user); //strip out the user object
+		$annotation = json_encode($annotation);
+
 		//insert the annotations into the database
 		$dbw = wfGetDB( DB_MASTER );
 		$dbw->insert(
@@ -37,7 +41,7 @@ class ApiAnnotatorCreate extends ApiBase {
 			array(
 				'annotation_json' => $annotation,
 				'rev_id' => $revid,
-				'user_id' => $user_id
+				'annotation_user_id' => $user_id
 				)
 			);
 		$annotation_id = $dbw->insertId(); //get the annotation ID
