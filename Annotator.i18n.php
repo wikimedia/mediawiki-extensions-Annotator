@@ -37,6 +37,13 @@ $messages['fr'] = array(
 	'annotator-desc' => 'Permettre des commentaires en ligne sur les pages',
 );
 
+/** Galician (galego)
+ * @author Toliño
+ */
+$messages['gl'] = array(
+	'annotator-desc' => 'Permite os comentarios entre liñas nas páxinas',
+);
+
 /** Italian (italiano)
  * @author Beta16
  */
@@ -49,4 +56,25 @@ $messages['it'] = array(
  */
 $messages['ja'] = array(
 	'annotator-desc' => 'ページでインライン コメントを使用できるようにする',
+);
+
+/** Macedonian (македонски)
+ * @author Bjankuloski06
+ */
+$messages['mk'] = array(
+	'annotator-desc' => 'Овозможува коментари во самите редови на страниците',
+);
+
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'annotator-desc' => 'Permette le commende in linèe sus a le pàggene',
+);
+
+/** Russian (русский)
+ * @author KPu3uC B Poccuu
+ */
+$messages['ru'] = array(
+	'annotator-desc' => 'Позволяет использовать вложенные комментарии на страницах',
 );
