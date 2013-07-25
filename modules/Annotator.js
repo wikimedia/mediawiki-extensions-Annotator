@@ -16,7 +16,7 @@
         create: '?action=annotator-create&format=json&revid=' + revid,
         update: '',
         read: '?action=annotator-read&format=json&id=:id',
-        destroy: '',
+        destroy: '?action=annotator-destroy&format=json&id=:id',
         search: '?action=annotator-search&format=json'
       },
       loadFromSearch: {
