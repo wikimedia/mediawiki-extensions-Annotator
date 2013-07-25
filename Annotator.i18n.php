@@ -44,6 +44,13 @@ $messages['gl'] = array(
 	'annotator-desc' => 'Permite os comentarios entre liñas nas páxinas',
 );
 
+/** Interlingua (interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'annotator-desc' => 'Permitter commentos inter lineas sur paginas',
+);
+
 /** Italian (italiano)
  * @author Beta16
  */
@@ -63,6 +70,13 @@ $messages['ja'] = array(
  */
 $messages['mk'] = array(
 	'annotator-desc' => 'Овозможува коментари во самите редови на страниците',
+);
+
+/** Dutch (Nederlands)
+ * @author Siebrand
+ */
+$messages['nl'] = array(
+	'annotator-desc' => "Voegt inline reacties toe op pagina's",
 );
 
 /** tarandíne (tarandíne)
