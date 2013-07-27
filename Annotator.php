@@ -46,3 +46,5 @@ $wgAPIModules['annotator-create'] = 'ApiAnnotatorCreate';
 $wgAPIModules['annotator-read'] = 'ApiAnnotatorRead';
 $wgAPIModules['annotator-search'] = 'ApiAnnotatorSearch';
 $wgAPIModules['annotator-destroy'] = 'ApiAnnotatorDestroy';
+
+unset( $dir );
