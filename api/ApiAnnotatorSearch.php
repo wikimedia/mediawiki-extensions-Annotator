@@ -10,32 +10,14 @@ class ApiAnnotatorSearch extends ApiBase {
 			$this->dieUsage( "The revision ID is not valid", 'invalid_revision_id', 404 );
 		}
 
-		//selects annotations of a particular revision ID
-		$dbr = wfGetDB( DB_SLAVE );
-		$res = $dbr->select(
-			'annotator',
-			array(
-				'annotation' => 'annotation_json',
-				'id' => 'annotation_id'
-				),
-			array(
-				'rev_id' => $revid
-				)
-			);
+		$repository = new AnnotationRepository();
+		$annotations = $repository->getAllByRevid( $revid );
 
-		$annotations = array();
-		$annotations['rows'] = array();
-		$total = 0;
-		foreach($res as $result) {
-			$annotation = json_decode($result->annotation);
-			$annotation->id = $result->id; //update the annotation object with the annotation ID
-			$annotations['rows'][] = $annotation;
-			$total = $total + 1;
-		}
-		$annotations['total'] = $total;
 		$result = $this->getResult();
-		$result->addValue( null, 'rows' , $annotations['rows'] );
-		$result->addValue( null, 'total', $total );
+
+		foreach( $annotations as $k => &$v ) {
+			$result->addValue( null, $k, $v );
+		}
 		return true;
 	}
 

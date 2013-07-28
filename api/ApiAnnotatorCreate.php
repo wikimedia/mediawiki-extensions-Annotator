@@ -6,7 +6,7 @@ class ApiAnnotatorCreate extends ApiBase {
 
 		//If the annotation object is null, then die
 		if( $annotation == null ) {
-			$this->dieUsage( "No annotation object received", 'annotation_not_recieved', 500 );
+			$this->dieUsage( "No annotation object received", 'annotation_not_received', 500 );
 		}
 
 		//get the user object

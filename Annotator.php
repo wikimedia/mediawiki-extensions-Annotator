@@ -37,6 +37,8 @@ $wgAutoloadClasses['ApiAnnotatorCreate'] = $dir . 'api/ApiAnnotatorCreate.php';
 $wgAutoloadClasses['ApiAnnotatorRead'] = $dir . 'api/ApiAnnotatorRead.php';
 $wgAutoloadClasses['ApiAnnotatorSearch'] = $dir . 'api/ApiAnnotatorSearch.php';
 $wgAutoloadClasses['ApiAnnotatorDestroy'] = $dir . 'api/ApiAnnotatorDestroy.php';
+$wgAutoloadClasses['ApiAnnotatorUpdate'] = $dir . 'api/ApiAnnotatorUpdate.php';
+$wgAutoloadClasses['AnnotationRepository'] = $dir . 'AnnotationRepository.php';
 
 //Hooks
 $wgHooks['BeforePageDisplay'][] = 'AnnotatorHooks::onBeforePageDisplay';
@@ -46,5 +48,6 @@ $wgAPIModules['annotator-create'] = 'ApiAnnotatorCreate';
 $wgAPIModules['annotator-read'] = 'ApiAnnotatorRead';
 $wgAPIModules['annotator-search'] = 'ApiAnnotatorSearch';
 $wgAPIModules['annotator-destroy'] = 'ApiAnnotatorDestroy';
+$wgAPIModules['annotator-update'] = 'ApiAnnotatorUpdate';
 
 unset( $dir );
