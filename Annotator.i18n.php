@@ -72,6 +72,13 @@ $messages['mk'] = array(
 	'annotator-desc' => 'Овозможува коментари во самите редови на страниците',
 );
 
+/** Marathi (मराठी)
+ * @author V.narsikar
+ */
+$messages['mr'] = array(
+	'annotator-desc' => 'पानांवर, ओळींतच प्रतिक्रिया दाखविते',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */
