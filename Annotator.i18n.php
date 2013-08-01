@@ -99,3 +99,10 @@ $messages['roa-tara'] = array(
 $messages['ru'] = array(
 	'annotator-desc' => 'Позволяет использовать вложенные комментарии на страницах',
 );
+
+/** Ukrainian (українська)
+ * @author Ата
+ */
+$messages['uk'] = array(
+	'annotator-desc' => 'Дозволяє вбудовані коментарі на сторінках',
+);
