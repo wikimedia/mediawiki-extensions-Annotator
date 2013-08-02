@@ -23,6 +23,13 @@ $messages['qqq'] = array(
 	'annotator-desc' => '{{desc}}',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'annotator-desc' => 'Permite los comentarios en llinia nes páxines',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
