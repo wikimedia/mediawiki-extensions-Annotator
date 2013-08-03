@@ -14,7 +14,7 @@
 			prefix: mw.util.wikiScript( 'api' ),
 			urls: {
 				create: '?action=annotator-create&format=json&revid=' + revid,
-				update: '',
+				update: '?action=annotator-update&format=json&id=:id',
 				read: '?action=annotator-read&format=json&id=:id',
 				destroy: '?action=annotator-destroy&format=json&id=:id',
 				search: '?action=annotator-search&format=json'
