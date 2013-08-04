@@ -30,6 +30,13 @@ $messages['ast'] = array(
 	'annotator-desc' => 'Permite los comentarios en llinia nes páxines',
 );
 
+/** Breton (brezhoneg)
+ * @author Y-M D
+ */
+$messages['br'] = array(
+	'annotator-desc' => 'Aotreañ an evezhiadennoù enlinenn war ar pajennoù',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
