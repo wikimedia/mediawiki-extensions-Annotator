@@ -30,6 +30,13 @@ $messages['ast'] = array(
 	'annotator-desc' => 'Permite los comentarios en llinia nes páxines',
 );
 
+/** Bikol Central (Bikol Central)
+ * @author Geopoet
+ */
+$messages['bcl'] = array(
+	'annotator-desc' => 'Minatugot kan panlaog linyang mga komento sa mga pahina',
+);
+
 /** Breton (brezhoneg)
  * @author Y-M D
  */
@@ -77,6 +84,13 @@ $messages['it'] = array(
  */
 $messages['ja'] = array(
 	'annotator-desc' => 'ページでインライン コメントを使用できるようにする',
+);
+
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'annotator-desc' => 'Erméiglecht Inline-Bemierkungen op Säiten',
 );
 
 /** Macedonian (македонски)
