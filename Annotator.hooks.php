@@ -29,7 +29,7 @@ class AnnotatorHooks {
 		/*
 		 module is added only when then namespace matches and user is logged in
 		*/
-		 if( $skin->getTitle()->inNamespaces( array( NS_MAIN, NS_TALK, NS_CATEGORY ) ) && $output->getUser()->isLoggedIn() ) {
+		 if( $skin->getTitle()->inNamespaces( array( NS_MAIN, NS_TALK, NS_CATEGORY ) ) ) {
 			$output->addModules( 'ext.annotator' );
 		}
 		return true;		
