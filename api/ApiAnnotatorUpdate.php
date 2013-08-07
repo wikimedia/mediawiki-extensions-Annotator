@@ -25,13 +25,15 @@ class ApiAnnotatorUpdate extends ApiBase {
 
 		$annotation_json = json_decode($annotation_json);
 		unset($annotation_json->id); //strip out the id element
+		unset($annotation_json->user); //strip out the user object
+	
 		$annotation_json = json_encode($annotation_json);
 
 		$dbw = wfGetDB( DB_MASTER );
 		$dbw->begin(); //lock the annotation in the db
 		$user_id = $dbw->selectField(
 			'annotator',
-			'user_id',
+			'annotation_user_id',
 			array(
 				'annotation_id' => $id
 				),
