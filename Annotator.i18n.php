@@ -134,3 +134,10 @@ $messages['ru'] = array(
 $messages['uk'] = array(
 	'annotator-desc' => 'Дозволяє вбудовані коментарі на сторінках',
 );
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Liuxinyu970226
+ */
+$messages['zh-hans'] = array(
+	'annotator-desc' => '允许内连注释在页面上',
+);
