@@ -40,7 +40,7 @@ class ApiAnnotatorCreate extends ApiBase {
 			'annotator',
 			array(
 				'annotation_json' => $annotation,
-				'rev_id' => $revid,
+				'annotation_rev_id' => $revid,
 				'annotation_user_id' => $user_id
 				)
 			);

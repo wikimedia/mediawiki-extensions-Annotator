@@ -1,0 +1,1 @@
+ALTER TABLE annotator CHANGE COLUMN user_id annotation_user_id int(10) unsigned NOT NULL;

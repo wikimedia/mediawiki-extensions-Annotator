@@ -47,7 +47,7 @@ class AnnotationRepository {
 				'userName' => 'user_name'
 				),
 			array(
-				'rev_id' => $revid
+				'annotation_rev_id' => $revid
 				),
 			__METHOD__,
 			array(),
