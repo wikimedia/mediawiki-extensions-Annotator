@@ -72,6 +72,13 @@ $messages['ia'] = array(
 	'annotator-desc' => 'Permitter commentos inter lineas sur paginas',
 );
 
+/** Indonesian (Bahasa Indonesia)
+ * @author Rv77ax
+ */
+$messages['id'] = array(
+	'annotator-desc' => 'Membolehkan komentar sebaris pada halaman',
+);
+
 /** Italian (italiano)
  * @author Beta16
  */
