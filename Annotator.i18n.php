@@ -18,9 +18,10 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Raimond Spekking
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'annotator-desc' => '{{desc}}',
+	'annotator-desc' => '{{desc|name=Annotator|url=http://www.mediawiki.org/wiki/Extension:Annotator}}',
 );
 
 /** Asturian (asturianu)
