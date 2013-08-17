@@ -94,6 +94,13 @@ $messages['ja'] = array(
 	'annotator-desc' => 'ページでインライン コメントを使用できるようにする',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'annotator-desc' => '문서에 인라인 덧글을 넣을 수 있습니다',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
