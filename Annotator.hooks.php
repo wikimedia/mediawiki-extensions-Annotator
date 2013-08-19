@@ -12,14 +12,23 @@ class AnnotatorHooks {
 	public static function loadExtensionSchemaUpdates( $updater = null ) {
 		$updater->addExtensionTable(
 			'annotator',
-			dirname( __FILE__ ) . '/sql/annotator.sql'
+			__DIR__ . '/sql/annotator.sql'
 		);
 
 		$updater->addExtensionIndex(
 			'annotator',
 			'annotator_rev_id',
-			dirname( __FILE__ ) . '/sql/index_rev_id.sql'
+			__DIR__ . '/sql/index_rev_id.sql'
 		);
+
+		if( $updater->getDB()->getType() === 'sqlite' ) {
+			$updater->modifyExtensionField( 'annotator', 'user_id', __DIR__ . "/sql/db_patches/patch-user_id-rename.sqlite.sql" );
+			$updater->modifyExtensionField( 'annotator', 'rev_id', __DIR__ . "/sql/db_patches/patch-rev_id-rename.sqlite.sql" );
+		}
+		else {
+			$updater->modifyExtensionField( 'annotator', 'user_id', __DIR__ . "/sql/db_patches/patch-user_id-rename.sql" );
+			$updater->modifyExtensionField( 'annotator', 'rev_id', __DIR__ . "/sql/db_patches/patch-rev_id-rename.sql" );
+		}
 		return true;
 	}
 	/*adds the annotator js and css
