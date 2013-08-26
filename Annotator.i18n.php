@@ -108,6 +108,13 @@ $messages['lb'] = array(
 	'annotator-desc' => 'Erméiglecht Inline-Bemierkungen op Säiten',
 );
 
+/** Basa Banyumasan (Basa Banyumasan)
+ * @author StefanusRA
+ */
+$messages['map-bms'] = array(
+	'annotator-desc' => 'Komentar sebaris nang kaca diolihna',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
