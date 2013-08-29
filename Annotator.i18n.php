@@ -136,6 +136,13 @@ $messages['nl'] = array(
 	'annotator-desc' => "Voegt inline reacties toe op pagina's",
 );
 
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'annotator-desc' => 'Permetre de comentaris en linha sus las paginas',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
