@@ -101,6 +101,13 @@ $messages['ko'] = array(
 	'annotator-desc' => '문서에 인라인 덧글을 넣을 수 있습니다',
 );
 
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'annotator-desc' => 'Määt Aanmärkonge ennerhallef vun Sigge müjjelesch.',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
