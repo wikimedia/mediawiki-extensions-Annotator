@@ -177,3 +177,10 @@ $messages['uk'] = array(
 $messages['zh-hans'] = array(
 	'annotator-desc' => '允许内连注释在页面上',
 );
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Justincheng12345
+ */
+$messages['zh-hant'] = array(
+	'annotator-desc' => '容許於內文加入注釋',
+);
