@@ -52,6 +52,13 @@ $messages['de'] = array(
 	'annotator-desc' => 'Ermöglicht Inline-Kommentare auf Seiten',
 );
 
+/** Spanish (español)
+ * @author VegaDark
+ */
+$messages['es'] = array(
+	'annotator-desc' => 'Permite comentarios en línea en las páginas',
+);
+
 /** French (français)
  * @author Wyz
  */
