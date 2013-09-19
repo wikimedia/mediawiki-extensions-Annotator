@@ -143,6 +143,13 @@ $messages['mr'] = array(
 	'annotator-desc' => 'पानांवर, ओळींतच प्रतिक्रिया दाखविते',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Tedbundyjr
+ */
+$messages['ms'] = array(
+	'annotator-desc' => 'Membolehkan komen sebaris di muka surat',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */
