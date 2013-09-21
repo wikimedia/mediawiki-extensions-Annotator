@@ -12,13 +12,11 @@ class ApiAnnotatorCreate extends ApiBase {
 		//get the user object
 		$user = $this->getUser();
 
-		//checks user log in
-		if( !$user->isLoggedIn() ) {
-			$this->dieUsage( "Log in to create annotation", 'user_not_logged_in', 401 );
-		}
-
 		//get the current user's ID
 		$user_id = $user->getId();
+
+		//get the current user's name
+		$user_text = $user->getName();
 
 		//get the Revision ID of the page, sent as a parameter in the API request
 		$params = $this->extractRequestParams();
@@ -41,7 +39,8 @@ class ApiAnnotatorCreate extends ApiBase {
 			array(
 				'annotation_json' => $annotation,
 				'annotation_rev_id' => $revid,
-				'annotation_user_id' => $user_id
+				'annotation_user_id' => $user_id,
+				'annotation_user_text' => $user_text
 				)
 			);
 		$annotation_id = $dbw->insertId(); //get the annotation ID
