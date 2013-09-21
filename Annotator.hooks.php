@@ -29,6 +29,11 @@ class AnnotatorHooks {
 			$updater->modifyExtensionField( 'annotator', 'user_id', __DIR__ . "/sql/db_patches/patch-user_id-rename.sql" );
 			$updater->modifyExtensionField( 'annotator', 'rev_id', __DIR__ . "/sql/db_patches/patch-rev_id-rename.sql" );
 		}
+		$updater->addExtensionField(
+			'annotator',
+			'annotation_user_text',
+			__DIR__ . "/sql/db_patches/patch-annotation_user_text-add.sql"
+		);
 		return true;
 	}
 	/*adds the annotator js and css
@@ -36,7 +41,7 @@ class AnnotatorHooks {
 	*/
 	public static function onBeforePageDisplay( OutputPage &$output, Skin &$skin ) {
 		/*
-		 module is added only when then namespace matches and user is logged in
+		 module is added only when then namespace matches
 		*/
 		 if( $skin->getTitle()->inNamespaces( array( NS_MAIN, NS_TALK, NS_CATEGORY ) ) ) {
 			$output->addModules( 'ext.annotator' );
