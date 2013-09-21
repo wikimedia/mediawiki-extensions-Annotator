@@ -27,8 +27,10 @@ $wgResourceModules['mediawiki.libs.okfn'] = array(
 	'styles' => 'mediawiki.libs.okfn/Annotator.css',
 	) + $wgAnnotatorResourcePaths;
 $wgResourceModules['ext.annotator'] = array(
-	'scripts' => 'Annotator.js',
-	'dependencies' => 'mediawiki.libs.okfn',
+	'scripts' => 'Annotator.js', //mediawiki.libs.okfn is loaded dynamically with mw.loader.using when the user views the annotations
+	'messages' => array(
+		'annotator-view-annotations',
+		),
 	) + $wgAnnotatorResourcePaths;
 
 //Autoloading

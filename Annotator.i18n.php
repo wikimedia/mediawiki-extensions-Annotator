@@ -14,6 +14,7 @@ $messages = array();
  */
 $messages['en'] = array(
 	'annotator-desc' => 'Allows inline comments on pages',
+	'annotator-view-annotations' => 'View annotations',
 );
 
 /** Message documentation (Message documentation)
@@ -22,6 +23,7 @@ $messages['en'] = array(
  */
 $messages['qqq'] = array(
 	'annotator-desc' => '{{desc|name=Annotator|url=http://www.mediawiki.org/wiki/Extension:Annotator}}',
+	'annotator-view-annotations' => 'The message shown in the tab which allows the user to load annotations on a page',
 );
 
 /** Asturian (asturianu)
