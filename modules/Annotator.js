@@ -79,9 +79,11 @@
 
 		//load the annotations when the tab is clicked
 		$('#ca-view-annotations').click( function(e) {
-			$( '#' + pTabsId ).find( 'li.selected' ).removeClass( 'selected' );
-			$(this).addClass( 'selected' );
-			mw.loader.using( 'mediawiki.libs.okfn', loadAnnotations );
+			if( !isViewingAnnotations ) {
+				$( '#' + pTabsId ).find( 'li.selected' ).removeClass( 'selected' );
+				$(this).addClass( 'selected' );
+				mw.loader.using( 'mediawiki.libs.okfn', loadAnnotations );
+			}
 			e.preventDefault();
 		});
 
