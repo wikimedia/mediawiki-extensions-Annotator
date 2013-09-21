@@ -52,6 +52,7 @@ $messages['br'] = array(
  */
 $messages['de'] = array(
 	'annotator-desc' => 'Ermöglicht Inline-Kommentare auf Seiten',
+	'annotator-view-annotations' => 'Anmerkungen ansehen',
 );
 
 /** Spanish (español)
