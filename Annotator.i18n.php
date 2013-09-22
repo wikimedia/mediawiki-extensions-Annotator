@@ -81,6 +81,7 @@ $messages['gl'] = array(
  */
 $messages['ia'] = array(
 	'annotator-desc' => 'Permitter commentos inter lineas sur paginas',
+	'annotator-view-annotations' => 'Vider annotationes',
 );
 
 /** Indonesian (Bahasa Indonesia)
@@ -137,6 +138,7 @@ $messages['map-bms'] = array(
  */
 $messages['mk'] = array(
 	'annotator-desc' => 'Овозможува коментари во самите редови на страниците',
+	'annotator-view-annotations' => 'Погл. прибелешки',
 );
 
 /** Marathi (मराठी)
@@ -182,10 +184,12 @@ $messages['ru'] = array(
 );
 
 /** Ukrainian (українська)
+ * @author Andriykopanytsia
  * @author Ата
  */
 $messages['uk'] = array(
 	'annotator-desc' => 'Дозволяє вбудовані коментарі на сторінках',
+	'annotator-view-annotations' => 'Перегляд анотацій',
 );
 
 /** Simplified Chinese (中文（简体）‎)
