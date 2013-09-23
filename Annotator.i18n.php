@@ -41,10 +41,12 @@ $messages['bcl'] = array(
 );
 
 /** Breton (brezhoneg)
+ * @author Fohanno
  * @author Y-M D
  */
 $messages['br'] = array(
 	'annotator-desc' => 'Aotreañ an evezhiadennoù enlinenn war ar pajennoù',
+	'annotator-view-annotations' => 'Gwelet an notennoù',
 );
 
 /** German (Deutsch)
@@ -63,10 +65,12 @@ $messages['es'] = array(
 );
 
 /** French (français)
+ * @author Gomoko
  * @author Wyz
  */
 $messages['fr'] = array(
 	'annotator-desc' => 'Permettre des commentaires en ligne sur les pages',
+	'annotator-view-annotations' => 'Afficher les annotations',
 );
 
 /** Galician (galego)
@@ -96,6 +100,7 @@ $messages['id'] = array(
  */
 $messages['it'] = array(
 	'annotator-desc' => 'Consente commenti in linea sulle pagine',
+	'annotator-view-annotations' => 'Vedi annotazioni',
 );
 
 /** Japanese (日本語)
@@ -174,13 +179,16 @@ $messages['oc'] = array(
  */
 $messages['roa-tara'] = array(
 	'annotator-desc' => 'Permette le commende in linèe sus a le pàggene',
+	'annotator-view-annotations' => "'Ndruche le annotaziune",
 );
 
 /** Russian (русский)
  * @author KPu3uC B Poccuu
+ * @author Okras
  */
 $messages['ru'] = array(
 	'annotator-desc' => 'Позволяет использовать вложенные комментарии на страницах',
+	'annotator-view-annotations' => 'Посмотреть аннотации',
 );
 
 /** Ukrainian (українська)
@@ -193,10 +201,12 @@ $messages['uk'] = array(
 );
 
 /** Simplified Chinese (中文（简体）‎)
+ * @author Fantasticfears
  * @author Liuxinyu970226
  */
 $messages['zh-hans'] = array(
 	'annotator-desc' => '允许内连注释在页面上',
+	'annotator-view-annotations' => '查看批注',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
