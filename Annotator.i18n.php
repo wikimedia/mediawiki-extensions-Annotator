@@ -58,10 +58,12 @@ $messages['de'] = array(
 );
 
 /** Spanish (español)
+ * @author Ovruni
  * @author VegaDark
  */
 $messages['es'] = array(
 	'annotator-desc' => 'Permite comentarios en línea en las páginas',
+	'annotator-view-annotations' => 'Ver anotaciones',
 );
 
 /** French (français)
@@ -78,6 +80,7 @@ $messages['fr'] = array(
  */
 $messages['gl'] = array(
 	'annotator-desc' => 'Permite os comentarios entre liñas nas páxinas',
+	'annotator-view-annotations' => 'Mostrar as anotacións',
 );
 
 /** Interlingua (interlingua)
@@ -154,10 +157,12 @@ $messages['mr'] = array(
 );
 
 /** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
  * @author Tedbundyjr
  */
 $messages['ms'] = array(
 	'annotator-desc' => 'Membolehkan komen sebaris di muka surat',
+	'annotator-view-annotations' => 'Lihat anotasi',
 );
 
 /** Dutch (Nederlands)
@@ -211,7 +216,9 @@ $messages['zh-hans'] = array(
 
 /** Traditional Chinese (中文（繁體）‎)
  * @author Justincheng12345
+ * @author StephDC
  */
 $messages['zh-hant'] = array(
 	'annotator-desc' => '容許於內文加入注釋',
+	'annotator-view-annotations' => '查看批註',
 );
