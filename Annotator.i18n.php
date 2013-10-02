@@ -31,6 +31,7 @@ $messages['qqq'] = array(
  */
 $messages['ast'] = array(
 	'annotator-desc' => 'Permite los comentarios en llinia nes páxines',
+	'annotator-view-annotations' => 'Ver anotaciones',
 );
 
 /** Bikol Central (Bikol Central)
@@ -167,9 +168,11 @@ $messages['ms'] = array(
 
 /** Dutch (Nederlands)
  * @author Siebrand
+ * @author TBloemink
  */
 $messages['nl'] = array(
 	'annotator-desc' => "Voegt inline reacties toe op pagina's",
+	'annotator-view-annotations' => 'Aantekeningen bekijken',
 );
 
 /** Occitan (occitan)
@@ -194,6 +197,13 @@ $messages['roa-tara'] = array(
 $messages['ru'] = array(
 	'annotator-desc' => 'Позволяет использовать вложенные комментарии на страницах',
 	'annotator-view-annotations' => 'Посмотреть аннотации',
+);
+
+/** Slovenian (slovenščina)
+ * @author Eleassar
+ */
+$messages['sl'] = array(
+	'annotator-view-annotations' => 'Ogled pripisov',
 );
 
 /** Ukrainian (українська)
