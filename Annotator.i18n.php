@@ -133,6 +133,7 @@ $messages['ksh'] = array(
  */
 $messages['lb'] = array(
 	'annotator-desc' => 'Erméiglecht Inline-Bemierkungen op Säiten',
+	'annotator-view-annotations' => 'Notize weisen',
 );
 
 /** Basa Banyumasan (Basa Banyumasan)
