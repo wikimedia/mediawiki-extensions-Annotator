@@ -1,1 +1,0 @@
-CREATE INDEX /*i*/annotator_rev_id ON /*_*/annotator (rev_id);

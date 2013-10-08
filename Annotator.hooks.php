@@ -15,12 +15,7 @@ class AnnotatorHooks {
 			__DIR__ . '/sql/annotator.sql'
 		);
 
-		$updater->addExtensionIndex(
-			'annotator',
-			'annotator_rev_id',
-			__DIR__ . '/sql/index_rev_id.sql'
-		);
-
+		// If the new name are already in use (e.g. if it's a clean install, or up to date), all of these renames will be skipped.
 		if( $updater->getDB()->getType() === 'sqlite' ) {
 			$updater->modifyExtensionField( 'annotator', 'user_id', __DIR__ . "/sql/db_patches/patch-user_id-rename.sqlite.sql" );
 			$updater->modifyExtensionField( 'annotator', 'rev_id', __DIR__ . "/sql/db_patches/patch-rev_id-rename.sqlite.sql" );
@@ -29,6 +24,13 @@ class AnnotatorHooks {
 			$updater->modifyExtensionField( 'annotator', 'user_id', __DIR__ . "/sql/db_patches/patch-user_id-rename.sql" );
 			$updater->modifyExtensionField( 'annotator', 'rev_id', __DIR__ . "/sql/db_patches/patch-rev_id-rename.sql" );
 		}
+
+		$updater->addExtensionIndex(
+			'annotator',
+			'annotator_rev_id',
+			__DIR__ . '/sql/db_patches/index_rev_id.sql'
+		);
+
 		$updater->addExtensionField(
 			'annotator',
 			'annotation_user_text',
@@ -46,6 +48,6 @@ class AnnotatorHooks {
 		 if( $skin->getTitle()->inNamespaces( array( NS_MAIN, NS_TALK, NS_CATEGORY ) ) ) {
 			$output->addModules( 'ext.annotator' );
 		}
-		return true;		
+		return true;
 	}
 }
