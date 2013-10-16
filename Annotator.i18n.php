@@ -201,9 +201,11 @@ $messages['ru'] = array(
 );
 
 /** Slovenian (slovenščina)
+ * @author Dbc334
  * @author Eleassar
  */
 $messages['sl'] = array(
+	'annotator-desc' => 'Omogoča medvrstične pripombe na straneh',
 	'annotator-view-annotations' => 'Ogled pripisov',
 );
 
