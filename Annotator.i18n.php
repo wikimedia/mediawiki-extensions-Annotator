@@ -34,6 +34,14 @@ $messages['ast'] = array(
 	'annotator-view-annotations' => 'Ver anotaciones',
 );
 
+/** Bashkir (башҡортса)
+ * @author Alfiya55
+ */
+$messages['ba'] = array(
+	'annotator-desc' => 'Биттәргә һалынған фекерҙәрҙе ҡулланырға мөмкинлек бирә',
+	'annotator-view-annotations' => 'Аннотацияларҙы ҡарарға',
+);
+
 /** Bikol Central (Bikol Central)
  * @author Geopoet
  */
