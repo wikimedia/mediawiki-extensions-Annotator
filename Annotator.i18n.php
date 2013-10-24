@@ -191,6 +191,13 @@ $messages['oc'] = array(
 	'annotator-desc' => 'Permetre de comentaris en linha sus las paginas',
 );
 
+/** Polish (polski)
+ * @author Chrumps
+ */
+$messages['pl'] = array(
+	'annotator-view-annotations' => 'Zobacz adnotacje',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
@@ -215,6 +222,14 @@ $messages['ru'] = array(
 $messages['sl'] = array(
 	'annotator-desc' => 'Omogoča medvrstične pripombe na straneh',
 	'annotator-view-annotations' => 'Ogled pripisov',
+);
+
+/** Swedish (svenska)
+ * @author Ainali
+ */
+$messages['sv'] = array(
+	'annotator-desc' => 'Möjliggör kommentarer i löptext på sidor',
+	'annotator-view-annotations' => 'Visa anteckningar',
 );
 
 /** Ukrainian (українська)
