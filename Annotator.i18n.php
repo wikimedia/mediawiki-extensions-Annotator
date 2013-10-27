@@ -58,6 +58,13 @@ $messages['br'] = array(
 	'annotator-view-annotations' => 'Gwelet an notennoù',
 );
 
+/** Czech (česky)
+ * @author Michaelbrabec
+ */
+$messages['cs'] = array(
+	'annotator-view-annotations' => 'Zobrazit poznámky',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
@@ -191,6 +198,7 @@ $messages['nl'] = array(
  */
 $messages['oc'] = array(
 	'annotator-desc' => 'Permetre de comentaris en linha sus las paginas',
+	'annotator-view-annotations' => 'Afichar las anotacions',
 );
 
 /** Polish (polski)
