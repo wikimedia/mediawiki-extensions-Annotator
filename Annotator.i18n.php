@@ -47,6 +47,7 @@ $messages['ba'] = array(
  */
 $messages['bcl'] = array(
 	'annotator-desc' => 'Minatugot kan panlaog linyang mga komento sa mga pahina',
+	'annotator-view-annotations' => 'Tanawon an mga kadagdagan na mga notasyon',
 );
 
 /** Breton (brezhoneg)
