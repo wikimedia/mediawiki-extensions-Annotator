@@ -59,7 +59,7 @@ $messages['br'] = array(
 	'annotator-view-annotations' => 'Gwelet an notennoù',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Michaelbrabec
  */
 $messages['cs'] = array(
@@ -81,6 +81,14 @@ $messages['de'] = array(
 $messages['es'] = array(
 	'annotator-desc' => 'Permite comentarios en línea en las páginas',
 	'annotator-view-annotations' => 'Ver anotaciones',
+);
+
+/** Persian (فارسی)
+ * @author Ebraminio
+ */
+$messages['fa'] = array(
+	'annotator-desc' => 'نظرات درون خطی در صفحه را مجاز می‌کند',
+	'annotator-view-annotations' => 'نمایش یادداشت‌ها',
 );
 
 /** French (français)
