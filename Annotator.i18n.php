@@ -217,6 +217,14 @@ $messages['pl'] = array(
 	'annotator-view-annotations' => 'Zobacz adnotacje',
 );
 
+/** Portuguese (português)
+ * @author Fúlvio
+ */
+$messages['pt'] = array(
+	'annotator-desc' => 'Permite comentários inseridos nas páginas',
+	'annotator-view-annotations' => 'Ver anotações',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
