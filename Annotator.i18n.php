@@ -177,6 +177,13 @@ $messages['mk'] = array(
 	'annotator-view-annotations' => 'Погл. прибелешки',
 );
 
+/** Malayalam (മലയാളം)
+ * @author Suresh.balasubra
+ */
+$messages['ml'] = array(
+	'annotator-view-annotations' => 'വ്യാഖ്യാനങ്ങൾ കാണുക.',
+);
+
 /** Marathi (मराठी)
  * @author V.narsikar
  */
