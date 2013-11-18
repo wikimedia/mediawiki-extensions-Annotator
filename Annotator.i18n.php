@@ -108,6 +108,14 @@ $messages['gl'] = array(
 	'annotator-view-annotations' => 'Mostrar as anotacións',
 );
 
+/** Hebrew (עברית)
+ * @author Amire80
+ */
+$messages['he'] = array(
+	'annotator-desc' => 'אפשרות להוסיף לדפים הערות בתוך בטקסט',
+	'annotator-view-annotations' => 'הצגת ההערות',
+);
+
 /** Interlingua (interlingua)
  * @author McDutchie
  */
@@ -178,10 +186,11 @@ $messages['mk'] = array(
 );
 
 /** Malayalam (മലയാളം)
+ * @author Praveenp
  * @author Suresh.balasubra
  */
 $messages['ml'] = array(
-	'annotator-view-annotations' => 'വ്യാഖ്യാനങ്ങൾ കാണുക.',
+	'annotator-view-annotations' => 'ടിപ്പണികൾ കാണുക',
 );
 
 /** Marathi (मराठी)
