@@ -26,6 +26,13 @@ $messages['qqq'] = array(
 	'annotator-view-annotations' => 'The message shown in the tab which allows the user to load annotations on a page',
 );
 
+/** Arabic (العربية)
+ * @author Meno25
+ */
+$messages['ar'] = array(
+	'annotator-view-annotations' => 'عرض التعليقات التوضيحية',
+);
+
 /** Asturian (asturianu)
  * @author Xuacu
  */
