@@ -81,6 +81,14 @@ $messages['de'] = array(
 	'annotator-view-annotations' => 'Anmerkungen ansehen',
 );
 
+/** Lower Sorbian (dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'annotator-desc' => 'Zmóžnijo inline-komentary na bokach',
+	'annotator-view-annotations' => 'Pśipiski se woglědaś',
+);
+
 /** Spanish (español)
  * @author Ovruni
  * @author VegaDark
