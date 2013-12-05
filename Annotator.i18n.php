@@ -131,6 +131,14 @@ $messages['he'] = array(
 	'annotator-view-annotations' => 'הצגת ההערות',
 );
 
+/** Upper Sorbian (hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'annotator-desc' => 'Zmóžnja inline-komentary na stronach',
+	'annotator-view-annotations' => 'Přispomnjenki pokazać',
+);
+
 /** Interlingua (interlingua)
  * @author McDutchie
  */
@@ -288,6 +296,14 @@ $messages['sl'] = array(
 $messages['sv'] = array(
 	'annotator-desc' => 'Möjliggör kommentarer i löptext på sidor',
 	'annotator-view-annotations' => 'Visa anteckningar',
+);
+
+/** Turkish (Türkçe)
+ * @author Joseph
+ */
+$messages['tr'] = array(
+	'annotator-desc' => 'Sayfalarda satır içi açıklamalara izin verir',
+	'annotator-view-annotations' => 'Açıklamaları gör',
 );
 
 /** Ukrainian (українська)
