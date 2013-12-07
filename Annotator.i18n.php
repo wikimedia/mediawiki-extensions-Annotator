@@ -66,6 +66,14 @@ $messages['br'] = array(
 	'annotator-view-annotations' => 'Gwelet an notennoù',
 );
 
+/** Catalan (català)
+ * @author Alvaro Vidal-Abarca
+ */
+$messages['ca'] = array(
+	'annotator-desc' => 'Permet comentaris en línia a les pàgines',
+	'annotator-view-annotations' => 'Mostra anotacions',
+);
+
 /** Czech (čeština)
  * @author Michaelbrabec
  */
