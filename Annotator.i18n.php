@@ -123,6 +123,14 @@ $messages['fr'] = array(
 	'annotator-view-annotations' => 'Afficher les annotations',
 );
 
+/** Friulian (furlan)
+ * @author Tocaibon
+ */
+$messages['fur'] = array(
+	'annotator-desc' => 'Permet i coments in linee pes pagjinis',
+	'annotator-view-annotations' => 'Vjôt lis anotazions',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
@@ -171,10 +179,12 @@ $messages['it'] = array(
 );
 
 /** Japanese (日本語)
+ * @author Fryed-peach
  * @author Shirayuki
  */
 $messages['ja'] = array(
 	'annotator-desc' => 'ページでインライン コメントを使用できるようにする',
+	'annotator-view-annotations' => 'アノテーションの表示',
 );
 
 /** Korean (한국어)
