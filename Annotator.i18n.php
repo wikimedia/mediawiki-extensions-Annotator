@@ -81,6 +81,14 @@ $messages['cs'] = array(
 	'annotator-view-annotations' => 'Zobrazit poznámky',
 );
 
+/** Danish (dansk)
+ * @author Christian List
+ */
+$messages['da'] = array(
+	'annotator-desc' => 'Gør det muligt at lave inline-kommentarer til siderne',
+	'annotator-view-annotations' => 'Vis annoteringer',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
@@ -248,6 +256,14 @@ $messages['mr'] = array(
 $messages['ms'] = array(
 	'annotator-desc' => 'Membolehkan komen sebaris di muka surat',
 	'annotator-view-annotations' => 'Lihat anotasi',
+);
+
+/** Norwegian Bokmål (norsk bokmål)
+ * @author Cocu
+ */
+$messages['nb'] = array(
+	'annotator-desc' => 'Muliggjør kommentarer i løpetekst på sider',
+	'annotator-view-annotations' => 'Vis antegninger',
 );
 
 /** Dutch (Nederlands)
