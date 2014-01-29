@@ -56,7 +56,7 @@
 		}
 
 		//Get the Revision Id of the page
-		revid = mw.config.get( 'wgCurRevisionId' );
+		revid = mw.config.get( 'wgRevisionId' );
 		//Get the userId
 		userId = mw.user.getId();
 		//Set the userPermission to user id if the user is logged in and to -1 if its an anon so that no user can update and delete the comments made by anons
