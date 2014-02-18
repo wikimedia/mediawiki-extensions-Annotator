@@ -332,6 +332,13 @@ $messages['sv'] = array(
 	'annotator-view-annotations' => 'Visa anteckningar',
 );
 
+/** Telugu (తెలుగు)
+ * @author Ravichandra
+ */
+$messages['te'] = array(
+	'annotator-view-annotations' => 'వ్యాఖ్యానాన్ని చూడండి',
+);
+
 /** Turkish (Türkçe)
  * @author Joseph
  */
