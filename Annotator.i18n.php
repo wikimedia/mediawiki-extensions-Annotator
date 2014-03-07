@@ -209,6 +209,7 @@ $messages['ko'] = array(
  */
 $messages['ksh'] = array(
 	'annotator-desc' => 'Määt Aanmärkonge ennerhallef vun Sigge müjjelesch.',
+	'annotator-view-annotations' => 'Aanmärkonge beloore',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
