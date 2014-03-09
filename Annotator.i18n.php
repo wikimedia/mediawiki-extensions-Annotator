@@ -178,6 +178,14 @@ $messages['id'] = array(
 	'annotator-desc' => 'Membolehkan komentar sebaris pada halaman',
 );
 
+/** Iloko (Ilokano)
+ * @author Lam-ang
+ */
+$messages['ilo'] = array(
+	'annotator-desc' => 'Mangpalubos kadagiti nailinia a komentario iti pampanid',
+	'annotator-view-annotations' => 'Ipakita dagiti anotasion',
+);
+
 /** Italian (italiano)
  * @author Beta16
  */
