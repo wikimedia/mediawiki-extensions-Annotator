@@ -307,6 +307,13 @@ $messages['pt'] = array(
 	'annotator-view-annotations' => 'Ver anotações',
 );
 
+/** Brazilian Portuguese (português do Brasil)
+ * @author Anaclaudiaml
+ */
+$messages['pt-br'] = array(
+	'annotator-view-annotations' => 'Ver anotações',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
