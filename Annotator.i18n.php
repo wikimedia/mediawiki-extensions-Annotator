@@ -308,10 +308,11 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Amgauna
  * @author Anaclaudiaml
  */
 $messages['pt-br'] = array(
-	'annotator-view-annotations' => 'Ver anotações',
+	'annotator-view-annotations' => 'Veja as anotações',
 );
 
 /** tarandíne (tarandíne)
