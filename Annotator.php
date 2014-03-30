@@ -8,12 +8,13 @@ $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Annotator',
 	'descriptionmsg' => 'annotator-desc',
-	'version' => '0.1',
+	'version' => '0.2.0',
 	'author' => array( 'Richa Jain' ),
 	'url' => 'https://mediawiki.org/wiki/Extension:Annotator',
 );
 
 $dir = dirname( __FILE__ ) . '/';
+$wgMessagesDirs['Annotator'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['Annotator'] = $dir . 'Annotator.i18n.php';
 
 //Resource Modules
