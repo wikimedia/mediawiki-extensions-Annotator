@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "KPu3uC B Poccuu",
-            "Okras"
-        ]
-    },
-    "annotator-desc": "Позволяет использовать вложенные комментарии на страницах",
-    "annotator-view-annotations": "Посмотреть аннотации"
+	"@metadata": {
+		"authors": [
+			"KPu3uC B Poccuu",
+			"Okras"
+		]
+	},
+	"annotator-desc": "Позволяет использовать вложенные комментарии на страницах",
+	"annotator-view-annotations": "Посмотреть аннотации"
 }

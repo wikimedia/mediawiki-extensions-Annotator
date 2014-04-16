@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Cedric31"
-        ]
-    },
-    "annotator-desc": "Permetre de comentaris en linha sus las paginas",
-    "annotator-view-annotations": "Afichar las anotacions"
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"annotator-desc": "Permetre de comentaris en linha sus las paginas",
+	"annotator-view-annotations": "Afichar las anotacions"
 }

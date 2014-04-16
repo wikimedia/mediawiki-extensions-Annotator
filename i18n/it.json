@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Beta16"
-        ]
-    },
-    "annotator-desc": "Consente commenti in linea sulle pagine",
-    "annotator-view-annotations": "Vedi annotazioni"
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"annotator-desc": "Consente commenti in linea sulle pagine",
+	"annotator-view-annotations": "Vedi annotazioni"
 }

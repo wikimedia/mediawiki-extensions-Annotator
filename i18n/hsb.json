@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Michawiki"
-        ]
-    },
-    "annotator-desc": "Zmóžnja inline-komentary na stronach",
-    "annotator-view-annotations": "Přispomnjenki pokazać"
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"annotator-desc": "Zmóžnja inline-komentary na stronach",
+	"annotator-view-annotations": "Přispomnjenki pokazać"
 }

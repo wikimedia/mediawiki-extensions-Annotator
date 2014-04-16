@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "McDutchie"
-        ]
-    },
-    "annotator-desc": "Permitter commentos inter lineas sur paginas",
-    "annotator-view-annotations": "Vider annotationes"
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"annotator-desc": "Permitter commentos inter lineas sur paginas",
+	"annotator-view-annotations": "Vider annotationes"
 }

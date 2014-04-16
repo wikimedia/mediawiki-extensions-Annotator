@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Glavkos"
-        ]
-    },
-    "annotator-desc": "Επιτρέπει εμβόλιμα σχόλια στις σελίδες",
-    "annotator-view-annotations": "Προβολή σχολίων"
+	"@metadata": {
+		"authors": [
+			"Glavkos"
+		]
+	},
+	"annotator-desc": "Επιτρέπει εμβόλιμα σχόλια στις σελίδες",
+	"annotator-view-annotations": "Προβολή σχολίων"
 }

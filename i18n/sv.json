@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Ainali"
-        ]
-    },
-    "annotator-desc": "Möjliggör kommentarer i löptext på sidor",
-    "annotator-view-annotations": "Visa anteckningar"
+	"@metadata": {
+		"authors": [
+			"Ainali"
+		]
+	},
+	"annotator-desc": "Möjliggör kommentarer i löptext på sidor",
+	"annotator-view-annotations": "Visa anteckningar"
 }

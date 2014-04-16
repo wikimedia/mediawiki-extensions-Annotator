@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Christian List"
-        ]
-    },
-    "annotator-desc": "Gør det muligt at lave inline-kommentarer til siderne",
-    "annotator-view-annotations": "Vis annoteringer"
+	"@metadata": {
+		"authors": [
+			"Christian List"
+		]
+	},
+	"annotator-desc": "Gør det muligt at lave inline-kommentarer til siderne",
+	"annotator-view-annotations": "Vis annoteringer"
 }

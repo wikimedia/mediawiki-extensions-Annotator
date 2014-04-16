@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Toliño"
-        ]
-    },
-    "annotator-desc": "Permite os comentarios entre liñas nas páxinas",
-    "annotator-view-annotations": "Mostrar as anotacións"
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"annotator-desc": "Permite os comentarios entre liñas nas páxinas",
+	"annotator-view-annotations": "Mostrar as anotacións"
 }

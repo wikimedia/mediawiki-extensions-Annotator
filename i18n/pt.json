@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Fúlvio"
-        ]
-    },
-    "annotator-desc": "Permite comentários inseridos nas páginas",
-    "annotator-view-annotations": "Ver anotações"
+	"@metadata": {
+		"authors": [
+			"Fúlvio"
+		]
+	},
+	"annotator-desc": "Permite comentários inseridos nas páginas",
+	"annotator-view-annotations": "Ver anotações"
 }

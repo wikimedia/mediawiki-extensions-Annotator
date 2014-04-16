@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Siebrand",
-            "TBloemink"
-        ]
-    },
-    "annotator-desc": "Voegt inline reacties toe op pagina's",
-    "annotator-view-annotations": "Aantekeningen bekijken"
+	"@metadata": {
+		"authors": [
+			"Siebrand",
+			"TBloemink"
+		]
+	},
+	"annotator-desc": "Voegt inline reacties toe op pagina's",
+	"annotator-view-annotations": "Aantekeningen bekijken"
 }

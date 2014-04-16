@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Fantasticfears",
-            "Liuxinyu970226"
-        ]
-    },
-    "annotator-desc": "允许内连注释在页面上",
-    "annotator-view-annotations": "查看批注"
+	"@metadata": {
+		"authors": [
+			"Fantasticfears",
+			"Liuxinyu970226"
+		]
+	},
+	"annotator-desc": "允许内连注释在页面上",
+	"annotator-view-annotations": "查看批注"
 }
