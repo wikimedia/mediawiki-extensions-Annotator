@@ -45,7 +45,8 @@ class AnnotatorHooks {
 		/*
 		 module is added only when then namespace matches
 		*/
-		 if( $skin->getTitle()->inNamespaces( array( NS_MAIN, NS_TALK, NS_CATEGORY ) ) ) {
+		global $wgAnnotatorNamespaces;
+		if( $skin->getTitle()->inNamespaces( $wgAnnotatorNamespaces ) ) {
 			$output->addModules( 'ext.annotator' );
 		}
 		return true;
