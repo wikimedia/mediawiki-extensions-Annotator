@@ -2,9 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"Justincheng12345",
-			"StephDC"
+			"StephDC",
+			"LNDDYL"
 		]
 	},
 	"annotator-desc": "容許於內文加入注釋",
-	"annotator-view-annotations": "查看批註"
+	"annotator-view-annotations": "檢視批註"
 }
