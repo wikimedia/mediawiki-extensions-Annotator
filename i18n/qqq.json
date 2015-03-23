@@ -2,9 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"Raimond Spekking",
-			"Shirayuki"
+			"Shirayuki",
+			"Umherirrender"
 		]
 	},
-	"annotator-desc": "{{desc|name=Annotator|url=http://www.mediawiki.org/wiki/Extension:Annotator}}",
+	"annotator-desc": "{{desc|name=Annotator|url=https://www.mediawiki.org/wiki/Extension:Annotator}}",
 	"annotator-view-annotations": "The message shown in the tab which allows the user to load annotations on a page"
 }
