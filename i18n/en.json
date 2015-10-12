@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Richa Jain"
-        ]
-    },
-    "annotator-desc": "Allows inline comments on pages",
-    "annotator-view-annotations": "View annotations"
+	"@metadata": {
+		"authors": [
+			"Richa Jain"
+		]
+	},
+	"annotator-desc": "Allows inline comments on pages",
+	"annotator-view-annotations": "View annotations"
 }
