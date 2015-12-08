@@ -30,7 +30,8 @@ class ApiAnnotatorUpdate extends ApiBase {
 		$annotation_json = json_encode($annotation_json);
 
 		$dbw = wfGetDB( DB_MASTER );
-		$dbw->begin(); //lock the annotation in the db
+		$dbw->startAtomic( __METHOD__ );
+
 		$user_id = $dbw->selectField(
 			'annotator',
 			'annotation_user_id',
@@ -61,8 +62,10 @@ class ApiAnnotatorUpdate extends ApiBase {
 			array(
 				'annotation_id' => $id
 				)
-			);
-		$dbw->commit(); //release the lock
+		);
+
+		$dbw->endAtomic( __METHOD__ );
+
 		$url = wfExpandUrl( wfScript( 'api' ) . '?action=annotator-read&format=json&id=' . $id, PROTO_CURRENT );
 		$response = $this->getRequest()->response();
 		$response->header( "Location: {$url}", true, 303 );
