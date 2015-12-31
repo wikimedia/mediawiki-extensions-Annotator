@@ -44,13 +44,13 @@ class ApiAnnotatorUpdate extends ApiBase {
 
 		//return 404 if the id is not valid
 		if( $user_id === false ) {
-			$dbw->rollback();
+			$dbw->endAtomic( __METHOD__ );
 			$this->dieUsage( "No annotation found", 'annotation_not_found', 404 );
 		}
 
 		//checks if the user_id is of the same user who created the annotation
 		if( $userId !== (int) $user_id ) {
-			$dbw->rollback();
+			$dbw->endAtomic( __METHOD__ );
 			$this->dieUsage( "You don't have permissions to update this annotation", 'user_not_authorized', 401 );
 		}
 		
