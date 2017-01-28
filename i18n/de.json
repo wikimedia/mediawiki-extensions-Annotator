@@ -5,5 +5,9 @@
 		]
 	},
 	"annotator-desc": "Ermöglicht Inline-Kommentare auf Seiten",
-	"annotator-view-annotations": "Anmerkungen ansehen"
+	"annotator-view-annotations": "Anmerkungen ansehen",
+	"apihelp-annotator-create-param-revid": "Versionskennung bezüglich dieser Anmerkung",
+	"apihelp-annotator-read-description": "Findet eine Anmerkung durch ihre Kennung und gibt ihre Daten zurück",
+	"apihelp-annotator-update-description": "Aktualisiert eine vorhandene Anmerkung mit neuen Daten",
+	"apihelp-annotator-destroy-param-id": "Anmerkungskennung"
 }
