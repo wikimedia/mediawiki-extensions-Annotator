@@ -2,9 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"KPu3uC B Poccuu",
-			"Okras"
+			"Okras",
+			"Kareyac"
 		]
 	},
 	"annotator-desc": "Позволяет использовать вложенные комментарии на страницах",
-	"annotator-view-annotations": "Посмотреть аннотации"
+	"annotator-view-annotations": "Посмотреть аннотации",
+	"apihelp-annotator-create-description": "Создание новой аннотации",
+	"apihelp-annotator-update-description": "Обновление аннотации с новыми данными"
 }
