@@ -5,5 +5,9 @@
 		]
 	},
 	"annotator-desc": "Consente commenti in linea sulle pagine",
-	"annotator-view-annotations": "Vedi annotazioni"
+	"annotator-view-annotations": "Vedi annotazioni",
+	"apihelp-annotator-create-description": "Crea una nuova annotazione",
+	"apihelp-annotator-search-param-revid": "ID versione",
+	"apihelp-annotator-update-param-id": "ID annotazione",
+	"apihelp-annotator-destroy-description": "Cancella annotazione"
 }
