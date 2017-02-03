@@ -9,5 +9,6 @@
 	"annotator-desc": "Позволяет использовать вложенные комментарии на страницах",
 	"annotator-view-annotations": "Посмотреть аннотации",
 	"apihelp-annotator-create-description": "Создание новой аннотации",
-	"apihelp-annotator-update-description": "Обновление аннотации с новыми данными"
+	"apihelp-annotator-update-description": "Обновление аннотации с новыми данными",
+	"apihelp-annotator-destroy-description": "Удалить заметку"
 }

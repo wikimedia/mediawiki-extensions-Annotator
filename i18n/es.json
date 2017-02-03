@@ -3,12 +3,16 @@
 		"authors": [
 			"Ovruni",
 			"VegaDark",
-			"Macofe"
+			"Macofe",
+			"Dgstranz"
 		]
 	},
 	"annotator-desc": "Permite comentarios en línea en las páginas",
 	"annotator-view-annotations": "Ver anotaciones",
 	"apihelp-annotator-create-description": "Crear una anotación nueva",
+	"apihelp-annotator-read-param-id": "Identificador de anotación",
+	"apihelp-annotator-search-param-revid": "Identificador de revisión",
 	"apihelp-annotator-update-description": "Actualizar una anotación existente con datos nuevos",
+	"apihelp-annotator-update-param-id": "Identificador de anotación",
 	"apihelp-annotator-destroy-description": "Eliminar una anotación"
 }

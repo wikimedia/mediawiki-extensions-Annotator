@@ -8,5 +8,6 @@
 	"annotator-view-annotations": "Notize weisen",
 	"apihelp-annotator-search-param-revid": "Versioun ID",
 	"apihelp-annotator-update-param-id": "Notiz ID",
-	"apihelp-annotator-destroy-description": "Notiz läschen"
+	"apihelp-annotator-destroy-description": "Notiz läschen",
+	"apihelp-annotator-destroy-param-id": "Notiz ID"
 }
