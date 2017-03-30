@@ -7,7 +7,7 @@
 			"Ykhwong"
 		]
 	},
-	"annotator-desc": "문서에 인라인 댓글을 넣을 수 있습니다",
+	"annotator-desc": "문서에 인라인 댓글을 넣을 수 있게 합니다",
 	"annotator-view-annotations": "주석 보기",
 	"apihelp-annotator-search-param-revid": "판 ID"
 }
