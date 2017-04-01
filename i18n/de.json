@@ -1,13 +1,20 @@
 {
 	"@metadata": {
 		"authors": [
-			"Metalhead64"
+			"Metalhead64",
+			"Kghbln"
 		]
 	},
-	"annotator-desc": "Ermöglicht Inline-Kommentare auf Seiten",
+	"annotator-desc": "Ermöglicht auf Seiten eingebettete Anmerkungen",
 	"annotator-view-annotations": "Anmerkungen ansehen",
-	"apihelp-annotator-create-param-revid": "Versionskennung bezüglich dieser Anmerkung",
-	"apihelp-annotator-read-description": "Findet eine Anmerkung durch ihre Kennung und gibt ihre Daten zurück",
+	"apihelp-annotator-create-description": "Eine neue Anmerkung erstellen",
+	"apihelp-annotator-create-param-revid": "Die mit dieser Anmerkung verknüpfte Versionskennung",
+	"apihelp-annotator-read-description": "Ermittelt eine Anmerkung mit ihrer Kennung und gibt ihre Daten zurück",
+	"apihelp-annotator-read-param-id": "Anmerkungskennung",
+	"apihelp-annotator-search-description": "Ermittelt alle Anmerkungen zu den Versionskennungen, mit denen sie verknüpft sind.",
+	"apihelp-annotator-search-param-revid": "Versionskennung",
 	"apihelp-annotator-update-description": "Aktualisiert eine vorhandene Anmerkung mit neuen Daten",
+	"apihelp-annotator-update-param-id": "Anmerkungskennung",
+	"apihelp-annotator-destroy-description": "Anmerkung löschen",
 	"apihelp-annotator-destroy-param-id": "Anmerkungskennung"
 }
