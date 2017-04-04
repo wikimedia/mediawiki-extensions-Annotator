@@ -1,9 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
-			"Toliño"
+			"Toliño",
+			"Elisardojm"
 		]
 	},
 	"annotator-desc": "Permite os comentarios entre liñas nas páxinas",
-	"annotator-view-annotations": "Mostrar as anotacións"
+	"annotator-view-annotations": "Mostrar as anotacións",
+	"apihelp-annotator-create-description": "Crear unha anotación nova",
+	"apihelp-annotator-create-param-revid": "Identificador da revisión asociada a esta anotación",
+	"apihelp-annotator-read-description": "Atopar unha anotación polo seu identificación e devolver os seus datos.",
+	"apihelp-annotator-read-param-id": "Identificador de anotación",
+	"apihelp-annotator-search-param-revid": "Identificador da revisión",
+	"apihelp-annotator-update-description": "Actualizar unha anotación existente cos novos datos",
+	"apihelp-annotator-update-param-id": "Identificador de anotación",
+	"apihelp-annotator-destroy-description": "Eliminar unha anotación",
+	"apihelp-annotator-destroy-param-id": "Identificador de anotación"
 }
