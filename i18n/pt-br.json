@@ -4,9 +4,13 @@
 			"Amgauna",
 			"Anaclaudiaml",
 			"Cainamarques",
-			"Dianakc"
+			"Dianakc",
+			"Felipe L. Ewald"
 		]
 	},
 	"annotator-desc": "Permite comentários incorporados em páginas",
-	"annotator-view-annotations": "Ver anotações"
+	"annotator-view-annotations": "Ver anotações",
+	"apihelp-annotator-read-param-id": "ID de anotação",
+	"apihelp-annotator-update-param-id": "ID de anotação",
+	"apihelp-annotator-destroy-param-id": "ID de anotação"
 }
