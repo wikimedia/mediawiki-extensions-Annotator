@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Srdjan m"
+		]
+	},
+	"annotator-desc": "Omogućava komentare u samim redovima stranica",
+	"annotator-view-annotations": "Vidi zabilješke",
+	"apihelp-annotator-create-description": "Napravi novu zabilješku",
+	"apihelp-annotator-read-param-id": "ID zabilješke",
+	"apihelp-annotator-search-param-revid": "ID izmjene",
+	"apihelp-annotator-update-param-id": "ID zabilješke",
+	"apihelp-annotator-destroy-description": "Obriši zabilješku",
+	"apihelp-annotator-destroy-param-id": "ID zabilješke"
+}
