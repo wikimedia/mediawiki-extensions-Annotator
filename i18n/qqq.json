@@ -9,13 +9,18 @@
 	"annotator-desc": "{{desc|name=Annotator|url=https://www.mediawiki.org/wiki/Extension:Annotator}}",
 	"annotator-view-annotations": "The message shown in the tab which allows the user to load annotations on a page",
 	"apihelp-annotator-create-description": "{{doc-apihelp-description|annotator-create}}",
+	"apihelp-annotator-create-summary": "{{doc-apihelp-summary|annotator-create}}",
 	"apihelp-annotator-create-param-revid": "{{doc-apihelp-param|annotator-create|revid}}",
 	"apihelp-annotator-read-description": "{{doc-apihelp-description|annotator-read}}",
+	"apihelp-annotator-read-summary": "{{doc-apihelp-summary|annotator-read}}",
 	"apihelp-annotator-read-param-id": "{{doc-apihelp-param|annotator-read|id}}",
 	"apihelp-annotator-search-description": "{{doc-apihelp-description|annotator-search}}",
+	"apihelp-annotator-search-summary": "{{doc-apihelp-summary|annotator-search}}",
 	"apihelp-annotator-search-param-revid": "{{doc-apihelp-param|annotator-search|revid}}",
 	"apihelp-annotator-update-description": "{{doc-apihelp-description|annotator-update}}",
+	"apihelp-annotator-update-summary": "{{doc-apihelp-summary|annotator-update}}",
 	"apihelp-annotator-update-param-id": "{{doc-apihelp-param|annotator-update|id}}",
 	"apihelp-annotator-destroy-description": "{{doc-apihelp-description|annotator-destroy}}",
+	"apihelp-annotator-destroy-summary": "{{doc-apihelp-summary|annotator-destroy}}",
 	"apihelp-annotator-destroy-param-id": "{{doc-apihelp-param|annotator-destroy|id}}"
 }
