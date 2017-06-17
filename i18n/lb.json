@@ -6,8 +6,10 @@
 	},
 	"annotator-desc": "Erméiglecht Inline-Bemierkungen op Säiten",
 	"annotator-view-annotations": "Notize weisen",
+	"apihelp-annotator-create-summary": "Nei Notiz uleeën",
 	"apihelp-annotator-search-param-revid": "Versioun ID",
 	"apihelp-annotator-update-param-id": "Notiz ID",
 	"apihelp-annotator-destroy-description": "Notiz läschen",
+	"apihelp-annotator-destroy-summary": "Notiz läschen",
 	"apihelp-annotator-destroy-param-id": "Notiz ID"
 }
