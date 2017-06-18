@@ -9,13 +9,18 @@
 	"annotator-desc": "Дозволяє вбудовані коментарі на сторінках",
 	"annotator-view-annotations": "Перегляд анотацій",
 	"apihelp-annotator-create-description": "Створити нову анотацію",
+	"apihelp-annotator-create-summary": "Створити нову анотацію",
 	"apihelp-annotator-create-param-revid": "Ідентифікатор версії, пов'язаної з цією анотацією",
 	"apihelp-annotator-read-description": "Знайти анотацію за ідентифікатором і вивести її дані",
+	"apihelp-annotator-read-summary": "Знайти анотацію за ідентифікатором і вивести її дані",
 	"apihelp-annotator-read-param-id": "Ідентифікатор анотації",
 	"apihelp-annotator-search-description": "Знайти всі анотації за ідентифікатором, з яким вони пов'язані",
+	"apihelp-annotator-search-summary": "Знайти всі анотації за ідентифікатором, з яким вони пов'язані",
 	"apihelp-annotator-search-param-revid": "Ідентифікатор версії",
 	"apihelp-annotator-update-description": "Оновити наявну анотацію новими даними",
+	"apihelp-annotator-update-summary": "Оновити наявну анотацію новими даними",
 	"apihelp-annotator-update-param-id": "Ідентифікатор анотації",
 	"apihelp-annotator-destroy-description": "Вилучити анотацію",
+	"apihelp-annotator-destroy-summary": "Вилучити анотацію",
 	"apihelp-annotator-destroy-param-id": "Ідентифікатор анотації"
 }
