@@ -8,13 +8,18 @@
 	"annotator-desc": "允许内联注释在页面上",
 	"annotator-view-annotations": "查看批注",
 	"apihelp-annotator-create-description": "创建新批注",
+	"apihelp-annotator-create-summary": "创建新批注",
 	"apihelp-annotator-create-param-revid": "与此批注有关的修订版本ID",
 	"apihelp-annotator-read-description": "按ID查找批注，并返回其数据",
+	"apihelp-annotator-read-summary": "按ID查找批注，并返回其数据",
 	"apihelp-annotator-read-param-id": "批注ID",
 	"apihelp-annotator-search-description": "查找所有与修订版本ID相关的批注",
+	"apihelp-annotator-search-summary": "查找所有与修订版本ID相关的批注",
 	"apihelp-annotator-search-param-revid": "修订版本ID",
 	"apihelp-annotator-update-description": "使用新数据更新现有批注",
+	"apihelp-annotator-update-summary": "使用新数据更新现有批注",
 	"apihelp-annotator-update-param-id": "批注ID",
 	"apihelp-annotator-destroy-description": "删除批注",
+	"apihelp-annotator-destroy-summary": "删除批注",
 	"apihelp-annotator-destroy-param-id": "批注ID"
 }

@@ -7,13 +7,18 @@
 	"annotator-desc": "Permite los comentarios en llinia nes páxines",
 	"annotator-view-annotations": "Ver anotaciones",
 	"apihelp-annotator-create-description": "Crear una anotación nueva",
+	"apihelp-annotator-create-summary": "Crear una anotación nueva",
 	"apihelp-annotator-create-param-revid": "ID de revisión rellacionada con esta anotación",
 	"apihelp-annotator-read-description": "Alcontrar anotación pola ID y devolver los datos",
+	"apihelp-annotator-read-summary": "Alcontrar anotación pola ID y devolver los datos",
 	"apihelp-annotator-read-param-id": "ID de la anotación",
 	"apihelp-annotator-search-description": "Alcontrar anotaciones pola ID de revisión cola que tán rellacionaes",
+	"apihelp-annotator-search-summary": "Alcontrar anotaciones pola ID de revisión cola que tán rellacionaes",
 	"apihelp-annotator-search-param-revid": "ID de la revisión",
 	"apihelp-annotator-update-description": "Actualizar una anotación esistiente con datos nuevos",
+	"apihelp-annotator-update-summary": "Actualizar una anotación esistiente con datos nuevos",
 	"apihelp-annotator-update-param-id": "ID de la anotación",
 	"apihelp-annotator-destroy-description": "Desaniciar anotación",
+	"apihelp-annotator-destroy-summary": "Desaniciar anotación",
 	"apihelp-annotator-destroy-param-id": "ID de la anotación"
 }
