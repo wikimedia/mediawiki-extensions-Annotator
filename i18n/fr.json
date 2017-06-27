@@ -17,5 +17,6 @@
 	"apihelp-annotator-update-description": "Mettre à jour l'annotation existante avec les nouvelles données",
 	"apihelp-annotator-update-param-id": "Identifiant de l'annotation",
 	"apihelp-annotator-destroy-description": "Supprimer l'annotation",
+	"apihelp-annotator-destroy-summary": "Supprimer l'annotation",
 	"apihelp-annotator-destroy-param-id": "Identifiant de l'annotation"
 }
