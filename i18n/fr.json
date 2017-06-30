@@ -9,6 +9,7 @@
 	"annotator-desc": "Permettre des commentaires en ligne sur les pages",
 	"annotator-view-annotations": "Afficher les annotations",
 	"apihelp-annotator-create-description": "Créer une nouvelle annotation",
+	"apihelp-annotator-create-summary": "Créer une nouvelle annotation",
 	"apihelp-annotator-create-param-revid": "Identifiant de la révision associée à cette annotation",
 	"apihelp-annotator-read-description": "Trouver une annotation par l'identifiant et retourner ses données.",
 	"apihelp-annotator-read-param-id": "Identifiant de l'annotation",

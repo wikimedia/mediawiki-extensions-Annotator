@@ -6,15 +6,20 @@
 		]
 	},
 	"annotator-desc": "Möjliggör kommentarer i löptext på sidor",
-	"annotator-view-annotations": "Visa anteckningar",
+	"annotator-view-annotations": "Visa kommentarer",
 	"apihelp-annotator-create-description": "Skapa ny kommentar",
+	"apihelp-annotator-create-summary": "Skapa ny kommentar",
 	"apihelp-annotator-create-param-revid": "Sidversions-ID relaterad till denna kommentar",
 	"apihelp-annotator-read-description": "Hitta kommentar efter ID och returnera dess data",
+	"apihelp-annotator-read-summary": "Hitta kommentar efter ID och returnera dess data",
 	"apihelp-annotator-read-param-id": "Kommentars-ID",
 	"apihelp-annotator-search-description": "Hitta alla kommentarer efter sidversions-ID dem är relaterad till",
+	"apihelp-annotator-search-summary": "Hitta alla kommentarer efter sidversions-ID dem är relaterad till",
 	"apihelp-annotator-search-param-revid": "Sidversions-ID",
 	"apihelp-annotator-update-description": "Uppdatera befintlig kommentar med ny data",
+	"apihelp-annotator-update-summary": "Uppdatera befintlig kommentar med ny data",
 	"apihelp-annotator-update-param-id": "Kommentars-ID",
 	"apihelp-annotator-destroy-description": "Radera kommentar",
+	"apihelp-annotator-destroy-summary": "Radera kommentar",
 	"apihelp-annotator-destroy-param-id": "Kommentars-ID"
 }
