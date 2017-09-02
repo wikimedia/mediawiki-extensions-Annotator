@@ -2,7 +2,7 @@
 class AnnotationRepository {
 	public function get( $annotation_id ) {
 
-		$dbr = wfGetDB( DB_SLAVE );
+		$dbr = wfGetDB( DB_REPLICA );
 		//select the annotation object from the database
 		$res = $dbr->select(
 			array('annotator'),
@@ -28,7 +28,7 @@ class AnnotationRepository {
 
 	public function getAllByRevid( $revid ) {
 		//selects annotations of a particular revision ID
-		$dbr = wfGetDB( DB_SLAVE );
+		$dbr = wfGetDB( DB_REPLICA );
 		$res = $dbr->select(
 			array('annotator'),
 			array(
