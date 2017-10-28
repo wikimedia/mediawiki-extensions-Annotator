@@ -15,7 +15,6 @@ $wgExtensionCredits['other'][] = array(
 
 $dir = dirname( __FILE__ ) . '/';
 $wgMessagesDirs['Annotator'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['Annotator'] = $dir . 'Annotator.i18n.php';
 $wgAnnotatorNamespaces = array( NS_MAIN, NS_TALK, NS_CATEGORY );
 //Resource Modules
 $wgAnnotatorResourcePaths = array(
