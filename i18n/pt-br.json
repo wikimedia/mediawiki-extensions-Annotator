@@ -5,12 +5,25 @@
 			"Anaclaudiaml",
 			"Cainamarques",
 			"Dianakc",
-			"Felipe L. Ewald"
+			"Felipe L. Ewald",
+			"Eduardo Addad de Oliveira"
 		]
 	},
 	"annotator-desc": "Permite comentários incorporados em páginas",
 	"annotator-view-annotations": "Ver anotações",
+	"apihelp-annotator-create-description": "Criar anotação nova",
+	"apihelp-annotator-create-summary": "Criar anotação nova",
+	"apihelp-annotator-create-param-revid": "Identificador de revisão associado a esta anotação",
+	"apihelp-annotator-read-description": "Encontrar uma anotação pelo seu identificador e devolver os respetivos dados",
+	"apihelp-annotator-read-summary": "Encontrar uma anotação pelo seu identificador e devolver os respetivos dados",
 	"apihelp-annotator-read-param-id": "ID de anotação",
+	"apihelp-annotator-search-description": "Encontrar todas as anotações pelo identificador de revisão com que estão relacionadas",
+	"apihelp-annotator-search-summary": "Encontrar todas as anotações pelo identificador de revisão com que estão relacionadas",
+	"apihelp-annotator-search-param-revid": "ID da revisão",
+	"apihelp-annotator-update-description": "Atualizar anotação existente com dados novos",
+	"apihelp-annotator-update-summary": "Atualizar anotação existente com dados novos",
 	"apihelp-annotator-update-param-id": "ID de anotação",
+	"apihelp-annotator-destroy-description": "Eliminar anotação",
+	"apihelp-annotator-destroy-summary": "Eliminar anotação",
 	"apihelp-annotator-destroy-param-id": "ID de anotação"
 }
