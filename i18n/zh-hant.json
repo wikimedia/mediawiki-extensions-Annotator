@@ -3,9 +3,25 @@
 		"authors": [
 			"Justincheng12345",
 			"StephDC",
-			"LNDDYL"
+			"LNDDYL",
+			"Kly"
 		]
 	},
-	"annotator-desc": "容許於內文加入注釋",
-	"annotator-view-annotations": "檢視批註"
+	"annotator-desc": "容許於頁面加入內部評論",
+	"annotator-view-annotations": "檢視註解",
+	"apihelp-annotator-create-description": "建立新註解",
+	"apihelp-annotator-create-summary": "建立新註解",
+	"apihelp-annotator-create-param-revid": "相關此註解的修訂 ID",
+	"apihelp-annotator-read-description": "透過 ID 找尋註解並回傳該資料",
+	"apihelp-annotator-read-summary": "透過 ID 找尋註解並回傳該資料",
+	"apihelp-annotator-read-param-id": "註解 ID",
+	"apihelp-annotator-search-description": "透過修訂 ID 找尋所有所關聯的註解",
+	"apihelp-annotator-search-summary": "透過修訂 ID 找尋所有所關聯的註解",
+	"apihelp-annotator-search-param-revid": "修訂 ID",
+	"apihelp-annotator-update-description": "以現有新資料更新註解",
+	"apihelp-annotator-update-summary": "以現有新資料更新註解",
+	"apihelp-annotator-update-param-id": "註解 ID",
+	"apihelp-annotator-destroy-description": "刪除註解",
+	"apihelp-annotator-destroy-summary": "刪除註解",
+	"apihelp-annotator-destroy-param-id": "註解 ID"
 }
