@@ -3,12 +3,25 @@
 		"authors": [
 			"KPu3uC B Poccuu",
 			"Okras",
-			"Kareyac"
+			"Kareyac",
+			"Mouse21"
 		]
 	},
 	"annotator-desc": "Позволяет использовать вложенные комментарии на страницах",
 	"annotator-view-annotations": "Посмотреть аннотации",
 	"apihelp-annotator-create-description": "Создание новой аннотации",
+	"apihelp-annotator-create-summary": "Создание новой аннотации",
+	"apihelp-annotator-create-param-revid": "Идентификатор версии, связанный с этой аннотацией",
+	"apihelp-annotator-read-description": "Найти аннотацию по идентификатору и вернуть его данные",
+	"apihelp-annotator-read-summary": "Найти аннотацию по идентификатору и вернуть его данные",
+	"apihelp-annotator-read-param-id": "Аннотация ID",
+	"apihelp-annotator-search-description": "Найти все аннотации по идентификатору версии, к которому они относятся.",
+	"apihelp-annotator-search-summary": "Найти все аннотации по идентификатору версии, к которому они относятся.",
+	"apihelp-annotator-search-param-revid": "Идентификатор правки",
 	"apihelp-annotator-update-description": "Обновление аннотации с новыми данными",
-	"apihelp-annotator-destroy-description": "Удалить заметку"
+	"apihelp-annotator-update-summary": "Обновление аннотации с новыми данными",
+	"apihelp-annotator-update-param-id": "Аннотация ID",
+	"apihelp-annotator-destroy-description": "Удалить заметку",
+	"apihelp-annotator-destroy-summary": "Удалить заметку",
+	"apihelp-annotator-destroy-param-id": "Аннотация ID"
 }
